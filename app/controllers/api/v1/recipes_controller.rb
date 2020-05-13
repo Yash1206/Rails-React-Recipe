@@ -14,6 +14,11 @@ class Api::V1::RecipesController < ApplicationController
   end
 
   def show
+    if recipe
+      render json: recipe
+    else
+      render json: recipe.errors
+    end
   end
 
   def destroy
