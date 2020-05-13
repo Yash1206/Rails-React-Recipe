@@ -12,7 +12,7 @@ export default () => (
         <hr className="my-4" />
         <Link
           to="/recipes"
-          className="button button-lg custom-button"
+          className="btn btn-lg custom-button"
           role="button"
         >
           View Recipes
